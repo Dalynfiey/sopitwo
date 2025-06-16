@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+		<title>My Personal Website </title>
+		<style>
+			body {
+				
+				font-family:Arial,sans-serif;
+				margin:0;
+				padding:0;
+				
+    		}
+			header {
+				background-color: #FF69B4;
+				color:black;
+				padding:20px;
+				text-align:center;
+				position: relative;
+				z-index: 2; 
+
+			}
+			nav {
+				text-align: center;
+				margin: 5px 0;
+				
+
+			}
+			nav a {
+				margin: 0 15px;
+				text-decoration: none;
+				color:white;
+				font-weight: bold;
+			}
+			.nav-button {
+      		background-color: #EEA1CD;
+      		border: none;
+      		color: white;
+      		padding: 10px 20px;
+      		text-decoration: none;
+      		font-size: 14px;
+      		margin: 5px;
+      		border-radius: 8px;
+      		cursor: pointer;
+      		display: inline-block;
+      		transition: background-color 0.3s ease;
+    		}
+
+    		.nav-button:hover {
+      		background-color: #d98ab1;
+    		}
+
+			.video-bg {
+     			position: fixed;
+				top: 100px; 
+				left: 0;
+				width: 100%;
+				height: calc(100% - 100px); 
+				object-fit: cover;
+				z-index: -1;
+    			
+    			}
+				
+				.content {
+      			position: relative;
+     			 z-index: 1;
+      			text-align: center;
+      			color: white;
+      			padding-top: 100px;
+    			}
+
+
+			section {
+				padding: 20px;
+    			margin: 50px auto;
+    			max-width: 500px;
+    			border: 1px solid #ddd;
+    			border-radius: 1px;
+    			background-color: #F0FFFF;
+    			text-align: center;
+    			opacity: 0.5; 
+    			margin: 30px auto 40px 40px;
+			}
+			footer {
+				text-align: center;
+				padding:0px;
+				background-color:#FF69B4;
+				color:black;
+				position: fixed;
+				bottom:0;
+				width: 100%;
+
+			}
+
+			@keyframes slideRightToLeft {
+    		0% {
+        		transform: translateX(0%);
+    		}
+    			100% {
+        		transform: translateX(-100%);
+    		}
+		}
+
+			.text-container {
+    		overflow: hidden;
+    		width: 100%;
+   			border: 1px solid #ddd;
+    		padding: 10px;
+    		white-space: nowrap;
+    		box-sizing: border-box;
+    		position: relative;
+		}
+
+			.animated-text {
+    		display: inline-block;
+    		animation: slideRightToLeft 15s linear infinite;
+    		font-size: 25px;
+    		color: white;
+    		padding-left: 100%; 
+		}
+
+
+		</style>
+</head>
+<body>
+	<header>
+		<h1> ♡⸜(˃ ᵕ ˂｡) 𝑾𝑬𝑳𝑪𝑶𝑴𝑬 𝑻𝑶 𝑴𝒀 𝑷𝑬𝑹𝑺𝑶𝑵𝑨𝑳 𝑾𝑬𝑩𝑺𝑰𝑻𝑬 (｡˃ ᵕ ˂)⸝♡ </h1>
+	</header>
+	
+<nav>
+    <a class="nav-button" href="homepage.html">HOME</a>
+    <a class="nav-button" href="aboutme.html">ABOUT</a>
+    <a class="nav-button" href="education.html">EDUCATION</a>
+    <a class="nav-button" href="family.html">FAMILY</a>
+    <a class="nav-button" href="experience.html">EXPERIENCE</a>
+    <a class="nav-button" href="friends.html">FRIENDS</a>
+    <a class="nav-button" href="favouritemusic.html">FAV MUSIC</a>
+    <a class="nav-button" href="gallery.html">GALLERY</a>
+  </nav>
+
+<div class="text-container">
+	<div class="animated-text">Hello!! Welcome to AdeLLyn SoFiey Personal Website♡</div>
+</div>
+<h1 style="font-size:10px;"></h1>
+	</section>
+
+<section>
+	<img src="logo1.jpg" height="121px" width="150px"style="float: left; margin-right: 20px;">
+	<br>
+	<h1> 𝓱𝓮𝓵𝓵𝓸 𝓽𝓱𝓮𝓻𝓮! </h1>
+	<br>
+<h3> " Here!, you'll find a glimpse into my journey,education,family,experiences, friend,favourite Music and gallery . Take a look around and get to know more about who I am and what I do!"
+</h3>
+</section>
+
+<center>
+	<audio controls autoplay>
+		<source src="song1.mp3" type="audio/mpeg">
+	</audio>
+</center>
+
+
+ <video class="video-bg" autoplay muted loop>
+    <source src="vd1.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+
+<footer>
+	<p> all right reserved by AdlynSofie,2025</p>
+</footer>
+
+
+</body>
+</html>
